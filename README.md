@@ -1,0 +1,3 @@
+# Unhandled Promise Rejection in Express.js POST Route
+
+This repository demonstrates a common error in Express.js applications: unhandled promise rejections in asynchronous database operations.  The `bug.js` file shows an example of a POST route that creates a new user without validating the input data or properly handling the asynchronous database operation.  This can lead to unexpected behavior and errors.  The solution is provided in `bugSolution.js`.
